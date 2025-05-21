@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'JMVK'
+theme = 'm10c'
+[params]
+author = 'JMVK'
+description = 'A small website to catalog thoughts and porjects'
+#Avatar:
+#Menu_item_separator: Separator between each menu item. HTML allowed (default: " - ")
+#Favicon: Absolute path of your favicon.ico file (default: "/favicon.ico")
+[[params.social]]
+  icon = "github"
+  name = "vikingfacer"
+  url = "https://github.com/vikingfacer"
+
+[menu]
+ [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+ [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
